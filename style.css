@@ -40,12 +40,17 @@ button {
     background-color: #E1EEDD;
 }
 
-#result-screen {
+#display-screen {
     height: 200px;
     margin-bottom: 10px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgb(243, 232, 255, .5);
+    font-size: 30px;
+}
+
+#result {
+    background-color: rgb(206, 89, 89, .5);
 }
 
 .buttons {
@@ -56,4 +61,8 @@ button {
 }
 .operation {
     background-color: rgb(206, 89, 89, .5);
+}
+
+.btn-big {
+    font-size: 30px;
 }

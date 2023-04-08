@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(186, 205, 219, .5);;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(186, 205, 219, .5);
+    border-radius: 10px;
+
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin: auto;
+}
+
+#calculator {
+    padding: 40px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-color: #E1EEDD;
+}
+
+#result-screen {
+    height: 200px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(243, 232, 255, .5);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.operation {
+    background-color: rgb(206, 89, 89, .5);
+}

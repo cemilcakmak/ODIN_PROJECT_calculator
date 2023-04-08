@@ -2,9 +2,18 @@ const numbers = document.querySelectorAll('.number');
 const displayContainer = document.querySelector('#display-screen');
 const resultButton = document.querySelector('#result');
 const operations = document.querySelectorAll('.operation');
+const clearButton = document.querySelector('.clear-button');
+
+clearButton.addEventListener('click', () => {
+    displayContainer.textContent = '';
+});
 
 operations.forEach(operation => {
     operation.addEventListener('click', () => {
+        const inputArray = displayContainer.textContent.split(/([+\-*/])/);
+        if (inputArray.length == 3) {
+            operate(inputArray[0], inputArray[2], inputArray[1]);
+        } 
         reflectToDisplay(operation.textContent);
     });
 });

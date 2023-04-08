@@ -41,12 +41,13 @@ button {
 }
 
 #display-screen {
-    height: 200px;
+    height: 100px;
     margin-bottom: 10px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgb(243, 232, 255, .5);
     font-size: 30px;
+    text-align: right;
 }
 
 #result {
@@ -65,4 +66,11 @@ button {
 
 .btn-big {
     font-size: 30px;
+}
+
+.clear-button {
+    width: 100%;
+    background-color: rgb(206, 89, 89, .5);
+    border-radius: 10px;
+    text-align: center; line-height: 100px;
 }
